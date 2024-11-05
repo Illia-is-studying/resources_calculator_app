@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="textViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:gravity">end</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:layout_marginTop">50dp</item>
+        <item name="android:textSize">64sp</item>
+    </style>
+    <style name="buttonStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_rowWeight">1</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_margin">1dp</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:background">@drawable/default_button_selector</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="redButtonStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_rowWeight">1</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_margin">1dp</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:background">@drawable/red_button_selector</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="gridLayoutStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:columnCount">4</item>
+        <item name="android:rowCount">5</item>
+        <item name="android:padding">4dp</item>
+    </style>
+    <style name="linearLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+</resources>
