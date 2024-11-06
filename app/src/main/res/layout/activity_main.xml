@@ -8,7 +8,7 @@
         android:id="@+id/outputTextView"
         style="@style/textViewStyle"
         android:background="@color/black"
-        android:text="@string/initialValue"
+        android:text="@string/zero"
         android:textColor="@color/white" />
 
     <GridLayout

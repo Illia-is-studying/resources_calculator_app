@@ -1,12 +1,14 @@
 package com.example.resources_calculator_app;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
+
+import com.example.resources_calculator_app.Services.CalculationService;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -15,5 +17,19 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
+    }
+
+    public void executeAction(View view) {
+        TextView textView = findViewById(R.id.outputTextView);
+        String textViewContent = textView.getText().toString();
+
+        Button button = (Button) view;
+        String buttonText = button.getText().toString();
+
+        CalculationService calcService = new CalculationService(textViewContent, buttonText);
+        calcService.calculateExpression();
+        textViewContent = calcService.getContent();
+
+        textView.setText(textViewContent);
     }
 }
