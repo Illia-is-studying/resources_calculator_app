@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/linearLayout"
+    android:gravity="center"
+    android:background="@color/black"
+    android:id="@+id/linear_parent2">
+
+    <Button
+        android:id="@+id/button_default"
+        style="@style/settingButton"
+        android:text="@string/default1"
+        android:onClick="setStyle"/>
+
+    <Button
+        android:id="@+id/button_mysterious"
+        style="@style/settingButton"
+        android:text="@string/mysterious"
+        android:onClick="setStyle"/>
+
+</LinearLayout>

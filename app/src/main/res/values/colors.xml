@@ -6,4 +6,9 @@
     <color name="white">#FFFBFF</color>
     <color name="red">#FF0000</color>
     <color name="dull_red">#C92A02</color>
+    <color name="darkest_green">#001F00</color>
+    <color name="light_light_blue">#E6FFFE</color>
+    <color name="light_blue">#B8FFFD</color>
+    <color name="green">#00FF00</color>
+    <color name="light_green">#ADFFAD</color>
 </resources>

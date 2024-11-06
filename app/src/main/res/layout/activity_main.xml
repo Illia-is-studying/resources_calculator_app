@@ -4,6 +4,11 @@
     style="@style/linearLayout"
     android:background="@color/black">
 
+    <Button
+        android:id="@+id/button_change_style"
+        style="@style/buttonChangeStyle"
+        android:text="@string/setting"/>
+
     <TextView
         android:id="@+id/outputTextView"
         style="@style/textViewStyle"
@@ -22,7 +27,7 @@
             android:text="@string/erase" />
 
         <Button
-            android:id="@+id/button_sign"
+            android:id="@+id/button_plus_minus"
             style="@style/buttonStyle"
             android:layout_row="0"
             android:layout_column="1"

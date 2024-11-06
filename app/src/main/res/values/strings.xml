@@ -19,4 +19,7 @@
     <string name="percent">%</string>
     <string name="plusMinus">+/-</string>
     <string name="equal">=</string>
+    <string name="setting">Setting</string>
+    <string name="default1">Default</string>
+    <string name="mysterious">Mysterious</string>
 </resources>

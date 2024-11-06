@@ -1,14 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <style name="textViewStyle">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginBottom">16dp</item>
         <item name="android:gravity">end</item>
+        <item name="android:layout_marginTop">10dp</item>
         <item name="android:padding">16dp</item>
-        <item name="android:layout_marginTop">50dp</item>
         <item name="android:textSize">64sp</item>
     </style>
+
+    <style name="settingButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/default_button_selector</item>
+        <item name="android:textColor">@color/dark_gray</item>
+        <item name="android:layout_marginBottom">70dp</item>
+    </style>
+
+    <style name="buttonChangeStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:background">@drawable/default_button_selector</item>
+        <item name="android:textColor">@color/dark_gray</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:layout_marginTop">70dp</item>
+        <item name="android:onClick">goToSetting</item>
+    </style>
+
     <style name="buttonStyle">
         <item name="android:layout_width">0dp</item>
         <item name="android:layout_height">0dp</item>
@@ -21,6 +42,7 @@
         <item name="android:gravity">center</item>
         <item name="android:onClick">executeAction</item>
     </style>
+
     <style name="redButtonStyle">
         <item name="android:layout_width">0dp</item>
         <item name="android:layout_height">0dp</item>
@@ -33,6 +55,7 @@
         <item name="android:gravity">center</item>
         <item name="android:onClick">executeAction</item>
     </style>
+
     <style name="gridLayoutStyle">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">match_parent</item>
@@ -41,6 +64,7 @@
         <item name="android:rowCount">5</item>
         <item name="android:padding">4dp</item>
     </style>
+
     <style name="linearLayout">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">match_parent</item>
